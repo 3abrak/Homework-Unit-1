@@ -8,7 +8,7 @@ function reverse(str) {
 
 process.stdin.on('data', (inputStr) => {
     inputStr = reverse(data).toString();
-    console.log(reverse());
+    console.log(reverse(data));
 });
 
 console.log(reverse('divan`s voisko'));
